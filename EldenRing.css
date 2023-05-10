@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #5A6847;
+    color: bisque;
+}
+
+header{
+    font-family: 'Martel', serif;
+    text-decoration: none;
+}
+
+a{
+    text-decoration:none;
+    color:bisque;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: bisque;
+    text-decoration: none;
+
+}
+
+header .container{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+section .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+section .container article{
+    padding-left: 50px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+    .container1{
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+.container1 article{
+    margin-left: 40px;
+    
+}
+
+.container1 p{
+    width: 90%;
+    font-family: 'Prompt', sans-serif;
+    font-size: 13px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: 'Martel', serif;
+    color:#5A6847;
+}
+
+h3{
+    font-family: 'Martel', serif;
+    color:#5A6847;
+}
+
+.Eldenimg{
+    width: 480px;
+}
+
+form input,
+form select,
+form button,
+textarea{
+    display: block;
+    width: 320px;
+    padding: 8px;
+    font-family: 'Martel', serif;
+    color:#5A6847;
+}
+
+form textarea{
+    resize: none;
+}
+
+form button{
+    background-color: #5A6847;
+    color: bisque ;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #7f9363;
+}
+
+
+.plataformas-lista img{ 
+    width: 100px;
+}
+
+.plataformas-lista{
+    display: flex;
+    align-items: center;
+}
+
+.plataformas-lista li {
+    display: inline;
+    
+}
+
+section .container{
+    align-items: 
+
+}
+
+.container2{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 80px;
+    
+}
+
+
+
+.container2 .redes{
+    display: inline;
+}
+
+.container2 .redes a{
+    text-decoration: none;
+}
+
+.redes img{
+    margin-top: 30px;
+    width: 30px;
+    
+}
+
+.redes li{
+    display: inline;
+    align-items: center;
+    
+}
+
+section .container2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+section .container2 h2{
+    margin-bottom: 20px;
+}
+
+section .container2 h3{
+    margin-bottom: 10px;
+}
+.redes-sociais{
+    margin-right: 10px;
+}
+
+footer{
+    background-color: #5A6847;
+    color: bisque;
+    padding: 16px 0;
+}
